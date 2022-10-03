@@ -6,7 +6,7 @@
 	</head>
 	<body>
 		<?php
-			<h1>HelloWorld</h1>
+			<h1>WorldHello</h1>
 		?>
 	</body>
 </html>
