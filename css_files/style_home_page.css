@@ -1,0 +1,30 @@
+#grid_container{
+		display: grid;
+		grid-template-columns: repeat(14, 1fr);
+}
+#white_space{
+	grid-column: 1/15;
+	height: 75px;
+}
+header{
+	height: 125px;
+	grid-column: 3/13;
+	background-color: RGB(81, 178, 162, 1);
+	display: flex;
+	justify-content: space-between;
+}
+header>nav{
+	width: 600px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.Button{
+	height: 62px;
+	width: 160px;
+	border-radius: 10px;
+	background-color: RGBA(30, 64, 122, 1);
+	color: white;
+	font-family: "Nexa Bold";
+	font-size: 30px;
+}
