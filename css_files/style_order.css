@@ -1,0 +1,44 @@
+#container{
+	display: grid;
+	grid-template-columns: repeat (12, 1fr);
+}
+.box{
+	grid-column: 2/8;
+	background-color: navy;
+	
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.hema{
+	color: white;
+}
+.linkhema{
+	margin-top: -10px;
+}
+.international{
+	color: white;
+}
+.logo{
+	grid-column: 9/12;
+	
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.button{
+	grid-column: 3/7;
+	background-color: navy;
+	
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	
+	margin-top: 10px;
+}
