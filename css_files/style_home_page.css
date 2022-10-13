@@ -1,6 +1,8 @@
 #grid_container{
 		display: grid;
 		grid-template-columns: repeat(14, 1fr);
+		background-image: url("../img/socks_low_quality.png");
+		background-repeat: repeat-y;
 }
 #white_space{
 	grid-column: 1/15;
@@ -27,4 +29,23 @@ header>nav{
 	color: white;
 	font-family: "Nexa Bold";
 	font-size: 30px;
+}
+#box_colorfull{
+	grid-column:3/13;
+	display: flex;
+	background-color: RGBA(254, 205, 62, 1);
+	height: 375px;
+	align-items: center;
+	justify-content: space-around;
+}
+#text_box_col{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	width: 45%;
+	align-items: center;
+}
+#im_sock_home{
+	width: auto;
+	height: 300px;
 }
