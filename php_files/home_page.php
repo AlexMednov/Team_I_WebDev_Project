@@ -21,7 +21,7 @@
 				</nav>
 			</header>
 			<div id = "box_colorfull">
-				<img src = "../img/im_sock_home.png" alt = "Sock" id = "im_sock_home">
+				<img src = "../img/im_sock_home.png" alt = "Sock" class = "im_sock_home">
 				<div id = "text_box_col">
 					<h1>Colourful</h1>
 					<h2>We like to add some colour to one of the the most 
@@ -32,9 +32,31 @@
 					In addition to always available colours.</h2>
 				</div>
 			</div>
-			<p>Text2_durable</p>
-			<p>Text3_international</p>
-			<p>Footer</p>
+			<div id = "box_durable">
+				<div id = "text_box_dur">
+					<h1>Durable and comfortable</h1>
+					<h2>We produce very durable and comfortable socks. 
+					Quality of materials used is stunning! 
+					In  addition to that you receive 5 year guarantee. 
+					But we are sure that you won’t need to use it. </h2>
+				</div>
+				<img src = "../img/Sunny_socks_red.jpg" class = "im_sock_home" alt = "Socks">
+			</div>
+			<div id = "box_international">
+				<img src = "../img/earth.png" id = "im_earth" alt = "Earth">
+				<div id = "text_box_int">
+					<h1>Now international!</h1>
+					<h2>Now we ship products to the USA, China and South Africa! 
+					But do not worry. If you are not satisfied with our socks, 
+					you can always use a return form.</h2>
+					<input type="button" value="Learn more" onclick="window.location='#'" class = "Button">
+				</div>
+			</div>
+			<footer>
+					<input type="button" value="Products" onclick="window.location='#'" class = "Button">
+					<input type="button" value="Return form" onclick="window.location='#'" id = "big_button">
+					<input type="button" value="Contact us" onclick="window.location='#'" class = "Button">
+			</footer>
 		</div>
 	</body>
 </html>
