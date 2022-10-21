@@ -1,7 +1,3 @@
-@font-face{
-	font-family: Nexa
-	src= url("Nexa Light.TTF")
-}
 #container{
 	display: grid;
 	grid-template-columns: repeat (12, 1fr);

@@ -1,25 +1,56 @@
+@font-face{
+	font-family: Nexa;
+	src= url("../fonts/Nexa Light.otf");
+}
 #container{
 	display: grid;
 	grid-template-columns: repeat (12, 1fr);
+	background-image: url=("../Team_I_WebDev_project/img/socks_better_quality.png");
 }
 .box{
 	grid-column: 2/8;
 	background-color: navy;
+	border-radius: 3%;
 	
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
-	justify-content: center;
 	align-items: center;
+	
+	padding-bottom: 50px;
+	margin-top: 40px;
+}
+h1{
+	color: white;
 }
 .hema{
 	color: white;
+}
+.title{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 }
 .linkhema{
 	margin-top: -10px;
 }
 .international{
 	color: white;
+}
+.linkint{
+	margin-top: -10px;
+}
+.germany{
+	color: white;
+}
+.linkde{
+	margin-top: -10px;
+}
+.bol{
+	color: white;
+}
+.linkbol{
+	margin-top: -10px;
 }
 .logo{
 	grid-column: 9/12;
@@ -33,6 +64,7 @@
 .button{
 	grid-column: 3/7;
 	background-color: navy;
+	border-radius: 3%;
 	
 	display: flex;
 	flex-direction: column;
@@ -41,4 +73,7 @@
 	align-items: center;
 	
 	margin-top: 10px;
+}
+h2{
+	color: white;
 }

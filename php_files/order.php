@@ -13,19 +13,19 @@
 			
 				
 				<div class="hema">
-					<p>Hema (Dutch)</p>
+					<p class="title">Hema (Dutch)</p>
 					<p class="linkhema">hema.duch@gmail.com</p>
 				</div>
 				<div class="international">	
-					<p>Amazon (international)</p>
+					<p class="title">Amazon (international)</p>
 					<p class="linkint">https./Amazon.SunnySocks.com</p>
 				</div>
 				<div class="germany">
-					<p>Amazon (Germany)</p>
+					<p class="title">Amazon (Germany)</p>
 					<p class="linkde">https:/Amazon.SunnySocks.de</p>
 				</div>
 				<div class="bol">	
-					<p>Bol.com (Dutch)</p>
+					<p class="title">Bol.com (Dutch)</p>
 					<p class="linkbol">https:/Bol.com.SunnySocks</p>
 				</div>
 			</div>

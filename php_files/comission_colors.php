@@ -3,7 +3,7 @@
 	<head>
 		<title>Color</title>
 		<meta charset="UTF-8">
-		<link rel="stylesheet" type="text/css" href="stylesheet1.css">
+		<link rel="stylesheet" type="text/css" href="../css_files/style_comission_colors.css">
 	</head>
 	
 	<body>
@@ -20,7 +20,7 @@
 				</div>
 			</div>
 			<div id="logo">
-				<img src="sunny_logos_slogan_orange.png" width="300" height="115">
+				<img src="../img/sunny_logos_slogan_orange.png" width="300" height="115">
 			</div>
 			<div id="button">
 				<p>Back</p>
