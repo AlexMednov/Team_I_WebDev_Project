@@ -17,6 +17,9 @@ header{
 	background-color: RGB(81, 178, 162, 1);
 	display: flex;
 	justify-content: space-between;
+	border-radius: 10px 10px 0px 0px;
+}
+#logo{
 }
 header>nav{
 	width: 600px;
@@ -39,6 +42,24 @@ h2{
 	font-family: "Nexa Bold";
 	font-size: 30px;
 }
+.Button_footer{
+	height: 62px;
+	width: 160px;
+	border-radius: 10px;
+	background-color: RGBA(30, 64, 122, 1);
+	color: white;
+	font-family: "Nexa Bold";
+	font-size: 30px;
+}
+#Button_spec{
+	height: 62px;
+	width: 160px;
+	border-radius: 10px;
+	background-color: RGBA(30, 64, 122, 1);
+	color: white;
+	font-family: "Nexa Bold";
+	font-size: 30px;
+}
 #box_colorfull{
 	grid-column:3/13;
 	display: flex;
@@ -47,7 +68,7 @@ h2{
 	align-items: center;
 	justify-content: space-around;
 }
-#text_box_col{
+.text_boxes{
 	display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
@@ -70,15 +91,6 @@ h2{
 	align-items: center;
 	justify-content: space-around;
 }
-#text_box_dur{
-	display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	width: 45%;
-	align-items: center;
-	height: 80%;
-	justify-content: space-evenly;
-}
 #box_international{
 	grid-column:3/13;
 	display: flex;
@@ -87,14 +99,8 @@ h2{
 	align-items: center;
 	justify-content: space-around;
 }
-#text_box_int{
-	display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	width: 45%;
-	align-items: center;
-	height: 80%;
-	justify-content: space-evenly;
+#map{
+	display: none;
 }
 #im_earth{
 	width: auto;
@@ -108,6 +114,7 @@ footer{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	border-radius: 0px 0px 10px 10px;
 }
 #big_button{
 	height: 62px;
@@ -117,4 +124,110 @@ footer{
 	color: white;
 	font-family: "Nexa Bold";
 	font-size: 30px;
+}
+#biggest_button{
+	display: none;
+}
+/*phone wersion media quarry*/
+@media screen and (max-width: 756px){
+	#grid_container{
+		grid-template-columns: repeat(4, 1fr);
+		background-image: none;
+	}
+	#white_space{
+		grid-column: 1/5;
+		height: 0px;
+	}
+	header{
+		height: 80px;
+		grid-column: 1/5;
+		background-color: RGB(81, 178, 162, 1);
+		display: flex;
+		justify-content: space-between;
+		border-radius: 0px 0px 0px 0px;
+	}
+	#logo{
+		width: auto;
+		height: 80px;
+	}
+	header>nav{
+		width: 300px;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+	.Button{
+		height: 31px;
+		width: 80px;
+		border-radius: 10px;
+		background-color: RGBA(30, 64, 122, 1);
+		color: white;
+		font-family: "Nexa Bold";
+		font-size: 15px;
+	}
+	.im_sock_home{
+		width: 250px;
+		height: auto;
+		border-radius: 10px;
+	}
+	h1{
+		font-family: "Nexa Bold";
+		font-size: 19px;
+	}
+	h2{
+		font-family: "Nexa Light";
+		font-size: 15px;
+	}
+	#box_colorfull{
+		grid-column: 1/5;
+		height: 425px;
+		flex-direction: column;
+	}
+	.text_boxes{
+		width: 80%;
+		height: 25%;
+	}
+	#box_durable{
+		grid-column: 1/5;
+		height: 325px;
+		flex-direction: column;
+	}
+	#box_international{
+		grid-column: 1/5;
+		height: 350px;
+		flex-direction: column-reverse;
+	}
+	#im_earth{
+		display: none;
+	}
+	#map{
+		display: initial;
+		height: 200px;	
+		width: auto;
+		border-radius: 10px;
+	}
+	#Button_spec{
+		display: none;
+	}
+	#big_button{
+		display: none;
+	}
+	.Button_footer{
+		display: none;
+	}
+	#biggest_button{
+		display: initial;
+		height: 62px;
+		width: 320px;
+		border-radius: 10px;
+		background-color: RGBA(30, 64, 122, 1);
+		color: white;
+		font-family: "Nexa Bold";
+		font-size: 30px;
+	}
+	footer{
+		height: 125px;
+		grid-column: 1/5;
+		border-radius: 0px;
+	}
 }

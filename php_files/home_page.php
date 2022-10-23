@@ -11,7 +11,7 @@
 			</div>
 			<!--Have not came up with a better way to make white space-->
 			<header>
-				<img src = "../img/sunny_logos-01.png">
+				<img src = "../img/sunny_logos-01.png" id = "logo">
 				<nav>
 					<input type="button" value="Products" onclick="window.location='#'" class = "Button">
 					<input type="button" value="Return form" onclick="window.location='#'" class = "Button">
@@ -22,7 +22,7 @@
 			</header>
 			<div id = "box_colorfull">
 				<img src = "../img/im_sock_home.png" alt = "Sock" class = "im_sock_home">
-				<div id = "text_box_col">
+				<div class = "text_boxes">
 					<h1>Colourful</h1>
 					<h2>We like to add some colour to one of the the most 
 					everyday moments of life: putting on your socks. 
@@ -33,7 +33,7 @@
 				</div>
 			</div>
 			<div id = "box_durable">
-				<div id = "text_box_dur">
+				<div class = "text_boxes">
 					<h1>Durable and comfortable</h1>
 					<h2>We produce very durable and comfortable socks. 
 					Quality of materials used is stunning! 
@@ -44,18 +44,21 @@
 			</div>
 			<div id = "box_international">
 				<img src = "../img/earth.png" id = "im_earth" alt = "Earth">
-				<div id = "text_box_int">
+				<!--Nex image will be visible only for mobile-->
+				<img src = "../img/map.png" id = "map" alt = "Map">
+				<div class = "text_boxes">
 					<h1>Now international!</h1>
 					<h2>Now we ship products to the USA, China and South Africa! 
 					But do not worry. If you are not satisfied with our socks, 
 					you can always use a return form.</h2>
-					<input type="button" value="Learn more" onclick="window.location='#'" class = "Button">
+					<input type="button" value="Learn more" onclick="window.location='#'" id = "Button_spec">
 				</div>
 			</div>
 			<footer>
-					<input type="button" value="Products" onclick="window.location='#'" class = "Button">
+					<input type="button" value="Products" onclick="window.location='#'" class = "Button_footer">
 					<input type="button" value="Return form" onclick="window.location='#'" id = "big_button">
-					<input type="button" value="Contact us" onclick="window.location='#'" class = "Button">
+					<input type="button" value="Contact us" onclick="window.location='#'" class = "Button_footer">
+					<input type="button" value="Contact us" onclick="window.location='#'" id = "biggest_button">
 			</footer>
 		</div>
 	</body>
