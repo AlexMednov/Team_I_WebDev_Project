@@ -1,7 +1,16 @@
 #container{
 	display: grid;
 	grid-template-columns: repeat (12, 1fr);
+	
+	background-image: url=("../img/socks_better_quality.png")
 }
+.button1{
+	display: none;
+}
+.contact{
+	display: none;
+}
+
 #box{
 	grid-column: 3/8;
 	background-color: navy;
@@ -11,13 +20,45 @@
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
+	
+	margin-top: 50px;
+	padding-bottom: 50px;
+	border-radius: 3%;
 }
+.paragraph1{
+	margin-top: 30px;
+}
+.title{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	
+	margin-top: 30px;
+}
+.text{
+	margin-top: -15px;
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
 #logo{
 	grid-column: 9/12;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.whitelogo{
+	display: none;
 }
 #button{
 	grid-column: 4/7;
 	background-color: navy;
+	margin-top: 10px;
+	border-radius: 3%;
 	
 	display: flex;
 	flex-direction: column;
@@ -27,4 +68,58 @@
 }
 p{
 	color: white;
+}
+
+@media screen and (max-width: 576px) {
+	body{
+		background-color: #51B2A2;
+		
+	}
+	
+	#container{
+		grid-template-columns: repeat(3, 1fr);
+		
+	}
+	.button1{
+		display: block;
+		grid-column: 1/2;
+		color: black;
+		background-color: #FECD3E;
+		font-size: 50px;
+		width: 95px;
+		border-radius: 3%;
+		
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+	.contact{
+		display: block;
+		grid-column: 2/3;
+		font-size: 60px;
+		
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+	.whitelogo{
+		grid-column: 2/3;
+		display: block;
+		margin-top: 40px;
+	}
+	
+	#button{
+		display: none;
+	}
+	
+	#box{
+		grid-column: 1/4;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	
+	#logo{
+		display: none;
+	}
 }

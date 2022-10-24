@@ -8,6 +8,8 @@
 	
 	<body>
 		<div id="container">
+			<p class="button1"><</p>
+			<p class= "resellers">Resellers</p>
 			<div class="box">
 				<b><h1>Order now</h1></b>
 			
@@ -33,6 +35,7 @@
 			<div class="logo">
 				<img src="../img/sunny_logos_slogan_orange.png" width="300" height="115">
 			</div>
+			<img class="whitelogo" src="../img/sunny_logos-01.png" width="300" height="115">
 			
 			<div class="button">
 				<b><h2>Back</h2></b>

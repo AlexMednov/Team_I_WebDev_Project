@@ -5,7 +5,15 @@
 #container{
 	display: grid;
 	grid-template-columns: repeat (12, 1fr);
-	background-image: url=("../Team_I_WebDev_project/img/socks_better_quality.png");
+	background-image: url=("../img/socks_better_quality.png");
+}
+.button1{
+	display: none;
+	
+}
+.resellers{
+	display: none;
+	color: white;
 }
 .box{
 	grid-column: 2/8;
@@ -61,6 +69,9 @@ h1{
 	justify-content: center;
 	align-items: center;
 }
+.whitelogo{
+	display: none;
+}
 .button{
 	grid-column: 3/7;
 	background-color: navy;
@@ -76,4 +87,55 @@ h1{
 }
 h2{
 	color: white;
+}
+
+@media screen and (max-width: 576px){
+	body{
+		background-color: #51B2A2;
+	}
+	#container{
+		grid-template-columns: repeat (3, 1fr);
+	}
+	.button1{
+		display: block;
+		grid-column: 1/2;
+		background-color: #FECD3E;
+		font-size: 50px;
+		padding-right: -50px;
+		border-radius: 3%;
+		
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+	.resellers{
+		display: block;
+		grid-column: 2/3;
+		font-size: 60px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.box{
+		grid-column: 1/4;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.logo{
+		display: none;
+	}
+	.whitelogo{
+		display: block;
+		grid-column: 2/3;
+		
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 40px;
+	}
+	.button{
+		display: none;
+	}
 }
