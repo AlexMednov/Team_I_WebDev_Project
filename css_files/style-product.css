@@ -1,25 +1,16 @@
-:root{
-  --green: #51b2a2;
-  --pink: #e990b9;
-  --blue: #1e407a;
-  --orange: #f15b39;
-  --yellow: #fecd3e;
-  --white: #FFFFFF;
-  --black: black
-}
 *{
   margin: 0;
 }
         /*BODY*/
 .body{
-  background-image: url("../IMG/background image.jpg");
+  background-image: url("../img/background image.jpg");
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   box-sizing: border-box;
 }
 
 .container{
-  background-color: var(--green);
+  background-color: #51b2a2;
   border-radius: 10px;
   grid-column: 3/11;
   margin-top: 50px;
@@ -79,8 +70,8 @@
   width: 100%;
   height: 100%;
   border-radius: 10px;
-  background-color: var(--blue);
-  color: var(--white);
+  background-color: #1e407a;
+  color: white;
 }
 
         /*PRODUCTS*/
@@ -88,7 +79,7 @@
         /*UNI PRODUCTS*/
 
 .uni-product{
-  background-color: var(--pink);
+  background-color: #e990b9;
   display:grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: repeat(2, 150px);
@@ -114,7 +105,7 @@
 .uni-dot-1{
   height: 25px;
   width: 25px;
-  background-color: var(--blue);
+  background-color: #1e407a;
   border: solid 1px black;
   border-radius: 50%;
   display: inline-block;
@@ -124,7 +115,7 @@
 .uni-dot-2{
   height: 25px;
   width: 25px;
-  background-color: var(--green);
+  background-color: #51b2a2;
   border: solid 1px black;
   border-radius: 50%;
   display: inline-block;
@@ -134,7 +125,7 @@
 .uni-dot-3{
   height: 25px;
   width: 25px;
-  background-color: var(--pink);
+  background-color: #e990b9;
   border: solid 1px black;
   border-radius: 50%;
   display: inline-block;
@@ -144,7 +135,7 @@
 .uni-dot-4{
   height: 25px;
   width: 25px;
-  background-color: var(--orange);
+  background-color: #f15b39;
   border: solid 1px black;
   border-radius: 50%;
   display: inline-block;
@@ -156,13 +147,13 @@
 }
 .orderhide a{
   text-decoration: none;
-  color: var(--white);
+  color: #fecd3e;
 }
 
       /*STRIP PRODUCTS*/
 
 .strip-product{
-  background-color: var(--orange);
+  background-color: #f15b39;
   display:grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: repeat(2, 150px);
@@ -188,7 +179,7 @@
 .strip-dot-1{
   height: 25px;
   width: 25px;
-  background-color: var(--blue);
+  background-color: #1e407a;
   border: solid 1px black;
   border-radius: 50%;
   display: inline-block;
@@ -198,7 +189,7 @@
 .strip-dot-2{
   height: 25px;
   width: 25px;
-  background-color: var(--green);
+  background-color: #51b2a2;
   border: solid 1px black;
   border-radius: 50%;
   display: inline-block;
@@ -208,7 +199,7 @@
 .strip-dot-3{
   height: 25px;
   width: 25px;
-  background-color: var(--pink);
+  background-color: #e990b9;
   border: solid 1px black;
   border-radius: 50%;
   display: inline-block;
@@ -218,7 +209,7 @@
 .strip-dot-4{
   height: 25px;
   width: 25px;
-  background-color: var(--orange);
+  background-color: #f15b39;
   border: solid 1px black;
   border-radius: 50%;
   display: inline-block;
@@ -245,8 +236,8 @@
   width: 100%;
   height: 40px;
   border-radius: 5px;
-  background-color: var(--blue);
-  color: var(--white);
+  background-color: #1e407a;
+  color: white;
   font-size: 25px;
 }
 
@@ -260,8 +251,8 @@
   width: 100%;
   height: 80px;
   border-radius: 5px;
-  background-color: var(--yellow);
-  color: var(--black);
+  background-color: #fecd3e;
+  color: black;
   font-size: 25px;
 }
 
@@ -305,7 +296,7 @@
   /*uni-products*/
 
   .uni-product{
-    background-color: var(--green);
+    background-color: #51b2a2;
     grid-template-rows: repeat(4, 150px);
     grid-template-columns: repeat(3 ,1fr);
   }
@@ -340,15 +331,15 @@
     width: 100%;
     height: 80px;
     border-radius: 5px;
-    background-color: var(--yellow);
-    color: var(--black);
+    background-color: #fecd3e;
+    color: black;
     font-size: 25px;
   }
 
   /*strip-products*/
 
   .strip-product{
-    background-color: var(--green);
+    background-color: #51b2a2;
     grid-template-rows: repeat(3, 150px);
     grid-template-columns: repeat(3 ,1fr);
   }
@@ -382,7 +373,7 @@
     align-items: center;
     justify-content: center;
     grid-column: 1/4;
-    background-color: var(--yellow);
+    background-color: #fecd3e;
     width: 90%;
     height: 50px;
     border-radius: 10px;
