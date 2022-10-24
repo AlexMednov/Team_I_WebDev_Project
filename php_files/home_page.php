@@ -12,13 +12,11 @@
 			<!--Have not came up with a better way to make white space-->
 			<header>
 				<img src = "../img/sunny_logos-01.png" id = "logo">
-				<nav>
-					<input type="button" value="Products" onclick="window.location='#'" class = "Button">
-					<input type="button" value="Return form" onclick="window.location='#'" class = "Button">
-					<input type="button" value="Contact us" onclick="window.location='#'" class = "Button">
+				<input type="button" value="Products" onclick="window.location='index-product.html'" id = "navbutton1">
+				<input type="button" value="Return form" onclick="window.location='#'" id = "navbutton2">
+				<input type="button" value="Contact us" onclick="window.location='order.php'" id = "navbutton3">
 					<!--Buttons that lead to diffrent pages. No diffrent pages yet, so they dont lead anywhere
 					yet.-->
-				</nav>
 			</header>
 			<div id = "box_colorfull">
 				<img src = "../img/im_sock_home.png" alt = "Sock" class = "im_sock_home">
