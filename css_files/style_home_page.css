@@ -3,32 +3,63 @@
 }
 #grid_container{
 		display: grid;
-		grid-template-columns: repeat(14, 1fr);
-		background-image: url("../img/socks_low_quality.png");
-		background-repeat: repeat-y;
+		grid-template-columns: repeat(12, 1fr);
+		background-image: url("../img/background image.jpg");
+		width: 100%;
+		height: 100%;
+		
 }
 #white_space{
-	grid-column: 1/15;
-	height: 75px;
+	grid-column: 1/13;
+	height: 50px;
 }
 header{
-	height: 125px;
-	grid-column: 3/13;
+	height: 80px;
+	grid-column: 3/11;
 	background-color: RGB(81, 178, 162, 1);
-	display: flex;
-	justify-content: space-between;
-}
-header>nav{
-	width: 600px;
-	display: flex;
-	justify-content: space-around;
+	border-radius: 10px 10px 0px 0px;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
 	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+}
+#logo{
+	width: 180px;
+	height: auto;
+	margin-left: 30px;
+	grid-column: 1/3;
 }
 h1{
 	font-family: "Nexa Bold";
 }
 h2{
 	font-family: "Nexa Light";
+}
+#navbutton1{
+	grid-column: 6/8;
+	height: 40px;
+	width: 90%;
+}
+
+#navbutton2{
+	grid-column: 8/10;
+	height: 40px;
+	width: 90%;
+}
+
+#navbutton3{
+	grid-column: 10/12;
+	height: 40px;
+	width: 90%;
+  
+
+}
+header>input{
+	font-family: "Nexa Bold";
+	border-radius: 10px;
+	background-color: RGBA(30, 64, 122, 1);
+	color: white;
 }
 .Button{
 	height: 62px;
@@ -39,15 +70,32 @@ h2{
 	font-family: "Nexa Bold";
 	font-size: 30px;
 }
+.Button_footer{
+	height: 40px;
+	width: 96px;
+	border-radius: 10px;
+	background-color: RGBA(30, 64, 122, 1);
+	color: white;
+	font-family: "Nexa Bold";
+}
+#Button_spec{
+	height: 52px;
+	width: 133px;
+	border-radius: 10px;
+	background-color: RGBA(30, 64, 122, 1);
+	color: white;
+	font-family: "Nexa Bold";
+	font-size: 22px
+}
 #box_colorfull{
-	grid-column:3/13;
+	grid-column:3/11;
 	display: flex;
 	background-color: RGBA(254, 205, 62, 1);
 	height: 375px;
 	align-items: center;
 	justify-content: space-around;
 }
-#text_box_col{
+.text_boxes{
 	display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
@@ -63,38 +111,23 @@ h2{
 	
 }
 #box_durable{
-	grid-column:3/13;
+	grid-column:3/11;
 	display: flex;
 	background-color: RGBA(233, 144, 185, 1);
 	height: 375px;
 	align-items: center;
 	justify-content: space-around;
 }
-#text_box_dur{
-	display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	width: 45%;
-	align-items: center;
-	height: 80%;
-	justify-content: space-evenly;
-}
 #box_international{
-	grid-column:3/13;
+	grid-column:3/11;
 	display: flex;
 	background-color: RGBA(241, 91, 57, 1);
 	height: 375px;
 	align-items: center;
 	justify-content: space-around;
 }
-#text_box_int{
-	display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	width: 45%;
-	align-items: center;
-	height: 80%;
-	justify-content: space-evenly;
+#map{
+	display: none;
 }
 #im_earth{
 	width: auto;
@@ -103,18 +136,124 @@ h2{
 }
 footer{
 	height: 125px;
-	grid-column: 3/13;
+	grid-column: 3/11;
 	background-color: RGB(81, 178, 162, 1);
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	border-radius: 0px 0px 10px 10px;
 }
 #big_button{
-	height: 62px;
+	height: 40px;
 	width: 320px;
 	border-radius: 10px;
 	background-color: RGBA(30, 64, 122, 1);
 	color: white;
 	font-family: "Nexa Bold";
-	font-size: 30px;
+}
+#biggest_button{
+	display: none;
+}
+/*phone wersion media quarry*/
+@media screen and (max-width: 576px){
+	#grid_container{
+		grid-template-columns: repeat(4, 1fr);
+		background-image: none;
+	}
+	#white_space{
+		grid-column: 1/5;
+		height: 0px;
+	}
+	header{
+		height: 80px;
+		grid-column: 1/5;
+		background-color: RGB(81, 178, 162, 1);
+		display: flex;
+		justify-content: space-between;
+		border-radius: 0px 0px 0px 0px;
+	}
+	#logo{
+		width: auto;
+		height: 80px;
+	}
+	header>nav{
+		width: 300px;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+	.Button{
+		height: 31px;
+		width: 80px;
+		border-radius: 10px;
+		background-color: RGBA(30, 64, 122, 1);
+		color: white;
+		font-family: "Nexa Bold";
+		font-size: 15px;
+	}
+	.im_sock_home{
+		width: 250px;
+		height: auto;
+		border-radius: 10px;
+	}
+	h1{
+		font-family: "Nexa Bold";
+		font-size: 19px;
+	}
+	h2{
+		font-family: "Nexa Light";
+		font-size: 15px;
+	}
+	#box_colorfull{
+		grid-column: 1/5;
+		height: 425px;
+		flex-direction: column;
+	}
+	.text_boxes{
+		width: 80%;
+		height: 25%;
+	}
+	#box_durable{
+		grid-column: 1/5;
+		height: 325px;
+		flex-direction: column;
+	}
+	#box_international{
+		grid-column: 1/5;
+		height: 350px;
+		flex-direction: column-reverse;
+	}
+	#im_earth{
+		display: none;
+	}
+	#map{
+		display: initial;
+		height: 200px;	
+		width: auto;
+		border-radius: 10px;
+	}
+	#Button_spec{
+		display: none;
+	}
+	#big_button{
+		display: none;
+	}
+	.Button_footer{
+		display: none;
+	}
+	#biggest_button{
+		display: initial;
+		height: 62px;
+		width: 320px;
+		border-radius: 10px;
+		background-color: RGBA(30, 64, 122, 1);
+		color: white;
+		font-family: "Nexa Bold";
+		font-size: 30px;
+	}
+	footer{
+		height: 125px;
+		grid-column: 1/5;
+		border-radius: 0px;
+	}
 }
