@@ -53,7 +53,7 @@
 				</div>
 			</div>
 			<footer>
-					<input type="button" value="Products" onclick="window.location='#'" class = "Button_footer">
+					<input type="button" value="Products" onclick="window.location='index-product.html'" class = "Button_footer">
 					<input type="button" value="Return form" onclick="window.location='#'" id = "big_button">
 					<input type="button" value="Contact us" onclick="window.location='#'" class = "Button_footer">
 					<input type="button" value="Contact us" onclick="window.location='#'" id = "biggest_button">
