@@ -49,7 +49,7 @@
 					<h2>Now we ship products to the USA, China and South Africa! 
 					But do not worry. If you are not satisfied with our socks, 
 					you can always use a return form.</h2>
-					<input type="button" value="Learn more" onclick="window.location='#'" id = "Button_spec">
+					<input type="button" value="Learn more" onclick="window.location='map_page.php'" id = "Button_spec">
 				</div>
 			</div>
 			<footer>

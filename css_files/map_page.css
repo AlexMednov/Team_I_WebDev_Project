@@ -1,0 +1,56 @@
+*{
+	margin: 0px;
+}
+body{
+	background-image: url("../img/background image.jpg");
+}
+#grid_container{
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+}
+#white_space{
+	height: 100px;
+}
+#map_prop{
+	width: 100%;
+	height: auto;
+	grid-column: 2/10;
+	border-radius: 10px;
+}
+#text_container{
+	grid-column: 10/12;
+	background-color: RGBA(30, 64, 122, 1);
+	border-radius: 10px;
+	margin-left: 30px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+h2{
+	font-family: "Nexa Light";
+	color: white;
+}
+#button_order{
+	height: 40px;
+	width: 100%;
+	border-radius: 10px;
+	background-color: RGBA(30, 64, 122, 1);
+	color: white;
+	font-family: "Nexa Bold";
+	grid-column: 8/10;
+	margin-top: 30px;
+	font-size: 20px;
+}
+#button_contact{
+	height: 40px;
+	width: 100%;
+	border-radius: 10px;
+	background-color: RGBA(30, 64, 122, 1);
+	color: white;
+	font-family: "Nexa Bold";
+	grid-column: 10/12;
+	margin-top: 30px;
+	margin-left: 30px;
+	font-size: 20px;
+}
