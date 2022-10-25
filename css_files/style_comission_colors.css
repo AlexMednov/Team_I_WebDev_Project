@@ -1,18 +1,30 @@
+@font-face{
+	font-family: nexa;
+	src: url("../fonts/Nexa Light.otf");
+}
 #container{
 	display: grid;
 	grid-template-columns: repeat (12, 1fr);
-	
-	background-image: url=("../img/socks_better_quality.png")
+}
+body{
+	background-image: url("../img/socks_better_quality.png");
+	background-position: center;
+	background-size: cover;
+	font-family: nexa;
 }
 .button1{
 	display: none;
+}
+.link{
+	text-decoration: none;
+	color: black;
 }
 .contact{
 	display: none;
 }
 
 #box{
-	grid-column: 3/8;
+	grid-column: 2/8;
 	background-color: navy;
 	
 	display: flex;
@@ -21,7 +33,7 @@
 	justify-content: center;
 	align-items: center;
 	
-	margin-top: 50px;
+	margin-top: 30px;
 	padding-bottom: 50px;
 	border-radius: 3%;
 }
@@ -55,7 +67,7 @@
 	display: none;
 }
 #button{
-	grid-column: 4/7;
+	grid-column: 3/7;
 	background-color: navy;
 	margin-top: 10px;
 	border-radius: 3%;
@@ -66,14 +78,22 @@
 	justify-content: center;
 	align-items: center;
 }
+h2{
+	color: white;
+}
+.link2{
+	text-decoration: none;
+	color: white;
+}
 p{
 	color: white;
+	font-size: 20px;
 }
 
 @media screen and (max-width: 576px) {
 	body{
 		background-color: #51B2A2;
-		
+		background-image: none;
 	}
 	
 	#container{
@@ -97,7 +117,7 @@ p{
 	.contact{
 		display: block;
 		grid-column: 2/3;
-		font-size: 60px;
+		font-size: 50px;
 		
 		display: flex;
 		flex-direction: row;

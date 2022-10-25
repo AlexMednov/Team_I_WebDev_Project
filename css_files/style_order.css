@@ -1,15 +1,23 @@
 @font-face{
-	font-family: Nexa;
-	src= url("../fonts/Nexa Light.otf");
+	font-family: nexa;
+	src: url("../fonts/Nexa Light.otf");
 }
 #container{
 	display: grid;
 	grid-template-columns: repeat (12, 1fr);
-	background-image: url=("../img/socks_better_quality.png");
+}
+body{
+	background-image: url("../img/socks_better_quality.png");
+	background-position: center;
+	background-size: cover;
+	font-family: nexa;
 }
 .button1{
 	display: none;
-	
+}
+.link{
+	text-decoration: none;
+	color: black;
 }
 .resellers{
 	display: none;
@@ -26,13 +34,14 @@
 	align-items: center;
 	
 	padding-bottom: 50px;
-	margin-top: 40px;
+	margin-top: 30px;
 }
 h1{
 	color: white;
 }
 .hema{
 	color: white;
+	font-size: 17px;
 }
 .title{
 	display: flex;
@@ -41,24 +50,31 @@ h1{
 }
 .linkhema{
 	margin-top: -10px;
+	font-size: 17px;
 }
 .international{
 	color: white;
+	font-size: 17px;
 }
 .linkint{
 	margin-top: -10px;
+	font-size: 17px;
 }
 .germany{
 	color: white;
+	font-size: 17px;
 }
 .linkde{
 	margin-top: -10px;
+	font-size: 17px;
 }
 .bol{
 	color: white;
+	font-size: 17px;
 }
 .linkbol{
 	margin-top: -10px;
+	font-size: 17px;
 }
 .logo{
 	grid-column: 9/12;
@@ -88,10 +104,15 @@ h1{
 h2{
 	color: white;
 }
+.back{
+	text-decoration: none;
+	color: white;
+}
 
 @media screen and (max-width: 576px){
 	body{
 		background-color: #51B2A2;
+		background-image: none;
 	}
 	#container{
 		grid-template-columns: repeat (3, 1fr);
@@ -112,7 +133,7 @@ h2{
 	.resellers{
 		display: block;
 		grid-column: 2/3;
-		font-size: 60px;
+		font-size: 50px;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -138,4 +159,5 @@ h2{
 	.button{
 		display: none;
 	}
+	
 }

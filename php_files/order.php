@@ -8,7 +8,7 @@
 	
 	<body>
 		<div id="container">
-			<p class="button1"><</p>
+			<p class="button1"><a class="link" href="../php_files/index-product.html"><</a></p>
 			<p class= "resellers">Resellers</p>
 			<div class="box">
 				<b><h1>Order now</h1></b>
@@ -38,7 +38,7 @@
 			<img class="whitelogo" src="../img/sunny_logos-01.png" width="300" height="115">
 			
 			<div class="button">
-				<b><h2>Back</h2></b>
+				<b><h2><a class="back" href="../php_files/index-product.html">Back</a></h2></b>
 			</div>	
 		</div>
 	</body>
