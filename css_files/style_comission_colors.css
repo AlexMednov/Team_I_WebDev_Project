@@ -7,7 +7,7 @@
 	grid-template-columns: repeat (12, 1fr);
 }
 body{
-	background-image: url("../img/socks_better_quality.png");
+	background-image: url("../img/background image.jpg");
 	background-position: center;
 	background-size: cover;
 	font-family: nexa;
@@ -25,7 +25,7 @@ body{
 
 #box{
 	grid-column: 2/8;
-	background-color: navy;
+	background-color: #1E407A;
 	
 	display: flex;
 	flex-direction: column;
@@ -68,7 +68,7 @@ body{
 }
 #button{
 	grid-column: 3/7;
-	background-color: navy;
+	background-color: #1E407A;
 	margin-top: 10px;
 	border-radius: 3%;
 	
