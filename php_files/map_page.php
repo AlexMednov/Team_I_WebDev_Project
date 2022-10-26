@@ -16,13 +16,8 @@
 					(highlighted green). If your country is not on the list, contact us, 
 					maybe we can figure something out.</h2>
 			</div>
-			<?php
-				/*$url = htmlspecialchars($_SERVER['HTTP_REFERER']);
-				$temp_url = explode("/", $url);
-				echo "<a href='$url'>back</a>";*/
-			?>
-			<input type="button" value="Order now" onclick="window.location='order.php'" id = "button_order">
-			<input type="button" value="Contact us" onclick="window.location='#'" id = "button_contact">
+			<a id ="button_order" href="order.php"><button>Order now</button></a>
+			<a id ="button_contact" href="contact_us\contact_us_map.php"><button>Contact us</button></a>
 		</div>
 	</body>
 </html>

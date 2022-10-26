@@ -12,11 +12,9 @@
 			<!--Have not came up with a better way to make white space-->
 			<header>
 				<img src = "../img/sunny_logos-01.png" id = "logo">
-				<input type="button" value="Products" onclick="window.location='index-product.html'" id = "navbutton1">
-				<input type="button" value="Return form" onclick="window.location='#'" id = "navbutton2">
-				<input type="button" value="Contact us" onclick="window.location='comission_colors.php'" id = "navbutton3">
-					<!--Buttons that lead to diffrent pages. No diffrent pages yet, so they dont lead anywhere
-					yet.-->
+				<a class="navbutton1" href="index-product.html"><button >Products</button></a>
+				<a class="navbutton2" href="return-form.php"><button>Return form</button></a>
+				<a class="navbutton3" href="contact_us\contact_us_home.php"><button>Contact us</button></a>
 			</header>
 			<div id = "box_colorfull">
 				<img src = "../img/im_sock_home.png" alt = "Sock" class = "im_sock_home">
@@ -53,10 +51,10 @@
 				</div>
 			</div>
 			<footer>
-					<input type="button" value="Products" onclick="window.location='index-product.html'" class = "Button_footer">
-					<input type="button" value="Return form" onclick="window.location='#'" id = "big_button">
-					<input type="button" value="Contact us" onclick="window.location='comission_colors.php'" class = "Button_footer">
-					<input type="button" value="Contact us" onclick="window.location='comission_colors.php'" id = "biggest_button">
+					<a class="Button_footer" href="index-product.html"><button >Products</button></a>
+					<input type="button" value="Return form" onclick="window.location='return-form.php'" id = "big_button">
+					<a class="Button_footer" href="contact_us\contact_us_home.php"><button>Contact us</button></a>
+					<a id = "biggest_button" href="contact_us\contact_us_home.php"><button>Contact us</button></a>
 			</footer>
 		</div>
 	</body>
