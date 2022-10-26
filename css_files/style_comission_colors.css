@@ -103,16 +103,13 @@ p{
 	.button1{
 		display: block;
 		grid-column: 1/2;
-		color: black;
-		background-color: #FECD3E;
-		font-size: 50px;
-		width: 95px;
-		border-radius: 3%;
+		width: 40px;
+		height: auto;
 		
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		justify-content: center;
-		align-items: center;
+		
 	}
 	.contact{
 		display: block;

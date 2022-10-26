@@ -8,7 +8,9 @@
 	
 	<body>
 		<div id="container">
-			<p class="button1"><a class="link" href="../../php_files/index-product.html"><</a></p>
+			<a class="button1" href="../../php_files/index-product.html">
+				<img src="../../img/previous.png" alt="button">
+			</a>
 			<p class="contact">Contact us</p>
 			<div id="box">
 				<div class="paragraph1">
