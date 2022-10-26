@@ -11,6 +11,7 @@
 }
 #white_space{
 	height: 50px;
+	grid-column: 1/13;
 }
 header{
 	height: 80px;
@@ -44,6 +45,7 @@ h2{
 	width: 80%;
 	position: relative;
 	left: 30px;
+	font-family: "Nexa Light";
 }
 
 #navbutton2{
@@ -52,6 +54,7 @@ h2{
 	width: 80%;
 	position: relative;
 	left: 30px;
+	font-family: "Nexa Light";
 }
 
 #navbutton3{
@@ -60,6 +63,7 @@ h2{
 	width: 80%;
 	position: relative;
 	left: 30px;
+	font-family: "Nexa Light";
 }
 header>input{
 	font-family: "Nexa Bold";
@@ -73,7 +77,7 @@ header>input{
 	border-radius: 10px;
 	background-color: RGBA(30, 64, 122, 1);
 	color: white;
-	font-family: "Nexa Bold";
+	font-family: "Nexa Light";
 }
 #Button_spec{
 	height: 52px;
@@ -146,7 +150,7 @@ footer{
 	border-radius: 10px;
 	background-color: RGBA(30, 64, 122, 1);
 	color: white;
-	font-family: "Nexa Bold";
+	font-family: "Nexa Light";
 }
 #biggest_button{
 	display: none;

@@ -8,7 +8,9 @@
 	
 	<body>
 		<div id="container">
-			<p class="button1"><a class="link" href="../php_files/index-product.html"><</a></p>
+			<a class="button1" href="../php_files/index-product.html"> 
+				<img src="../img/previous.png" alt="button">
+			</a>
 			<p class= "resellers">Resellers</p>
 			<div class="box">
 				<b><h1>Order now</h1></b>
@@ -36,10 +38,14 @@
 				<img src="../img/sunny_logos_slogan_orange.png" width="300" height="115">
 			</div>
 			<img class="whitelogo" src="../img/sunny_logos-01.png" width="300" height="115">
-			
+			<?php
+				$url = htmlspecialchars($_SERVER['HTTP_REFER']);
+				echo "<a href='$url'>sjdkhads</a>";
+			?>
 			<div class="button">
-				<b><h2><a class="back" href="../php_files/index-product.html">Back</a></h2></b>
+				<b><h2><a class='back' href=''>Back</a></h2></b>
 			</div>	
+				
 		</div>
 	</body>
 </html>

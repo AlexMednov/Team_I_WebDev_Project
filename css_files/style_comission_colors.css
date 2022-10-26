@@ -7,7 +7,7 @@
 	grid-template-columns: repeat (12, 1fr);
 }
 body{
-	background-image: url("../img/socks_better_quality.png");
+	background-image: url("../img/background image.jpg");
 	background-position: center;
 	background-size: cover;
 	font-family: nexa;
@@ -25,7 +25,7 @@ body{
 
 #box{
 	grid-column: 2/8;
-	background-color: navy;
+	background-color: #1E407A;
 	
 	display: flex;
 	flex-direction: column;
@@ -68,7 +68,7 @@ body{
 }
 #button{
 	grid-column: 3/7;
-	background-color: navy;
+	background-color: #1E407A;
 	margin-top: 10px;
 	border-radius: 3%;
 	
@@ -103,16 +103,13 @@ p{
 	.button1{
 		display: block;
 		grid-column: 1/2;
-		color: black;
-		background-color: #FECD3E;
-		font-size: 50px;
-		width: 95px;
-		border-radius: 3%;
+		width: 40px;
+		height: auto;
 		
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		justify-content: center;
-		align-items: center;
+		
 	}
 	.contact{
 		display: block;

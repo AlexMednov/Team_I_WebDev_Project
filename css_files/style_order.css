@@ -7,7 +7,7 @@
 	grid-template-columns: repeat (12, 1fr);
 }
 body{
-	background-image: url("../img/socks_better_quality.png");
+	background-image: url("../img/background image.jpg");
 	background-position: center;
 	background-size: cover;
 	font-family: nexa;
@@ -25,7 +25,7 @@ body{
 }
 .box{
 	grid-column: 2/8;
-	background-color: navy;
+	background-color: #1E407A;
 	border-radius: 3%;
 	
 	display: flex;
@@ -33,7 +33,7 @@ body{
 	flex-wrap: wrap;
 	align-items: center;
 	
-	padding-bottom: 50px;
+	padding-bottom: 30px;
 	margin-top: 30px;
 }
 h1{
@@ -90,7 +90,7 @@ h1{
 }
 .button{
 	grid-column: 3/7;
-	background-color: navy;
+	background-color: #1E407A;
 	border-radius: 3%;
 	
 	display: flex;
@@ -120,15 +120,10 @@ h2{
 	.button1{
 		display: block;
 		grid-column: 1/2;
-		background-color: #FECD3E;
-		font-size: 50px;
-		padding-right: -50px;
-		border-radius: 3%;
+		width: 40px;
+		height: auto;
 		
-		display: flex;
-		flex-direction: row;
-		justify-content: center;
-		align-items: center;
+		
 	}
 	.resellers{
 		display: block;
