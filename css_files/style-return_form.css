@@ -1,0 +1,89 @@
+	body
+	{
+		background-image: url("../img/background image.jpg") ;
+		margin: 0px;
+		margin-top: 3%;
+	}
+	
+	.container
+	{
+		display: grid;
+		grid-template-columns: repeat(12, 1fr);
+	}
+	
+	#forms
+	{
+		grid-column: 2/7;
+		display: flex;
+		justify-content: space-between;
+	}
+	
+	#right
+	{
+		display: flex;
+		grid-column: 8/11;
+		padding-left: 5px;
+		padding-right: 5px;
+		flex-direction: column;
+	}
+	
+	#info
+	{
+		font-family: "Nexa Light";
+		background-color: #e990b9;
+		font-size: 35px;
+		height: 100%;
+		width: 100%;
+		text-align: center;
+		border-radius: 3%;
+		position: relative;
+		padding: 3px;
+	}
+	
+	#forms > button
+	{
+		font-family: "Nexa Light" ;
+		height: 60px;
+		width: 365px;
+		background-color: #1e407a;
+		color: white;
+		font-size: 200%;
+		margin: 0px;
+		border-radius: 5px;
+	}
+	
+	#contact_us
+	{
+		display: flex;
+		justify-content: center;
+		margin-top: 70%;
+		width: 100%;
+		background-color: #1e407a;
+		color: white;
+		font-family: "Nexa Light";
+		height: 60px;
+		border-radius: 5px;
+		border:none;
+		font-size: 200%;
+		align-items: center;
+	}
+	
+	#back
+	{
+		display: flex;
+		margin-top: 20%;
+		background-color: #1e407a;
+		color: white;
+		font-family: "Nexa Light";
+		height: 60px;
+		width: 100%;
+		border-radius: 5px;
+		border:none;
+		justify-content: center;
+	}
+	
+	#buttons
+	{
+		display:flex;
+		flex-direction: column;
+	}
