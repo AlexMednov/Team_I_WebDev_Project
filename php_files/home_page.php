@@ -12,9 +12,20 @@
 			<!--Have not came up with a better way to make white space-->
 			<header>
 				<img src = "../img/sunny_logos-01.png" id = "logo">
-				<a class="navbutton1" href="index-product.html"><button >Products</button></a>
-				<a class="navbutton2" href="return-form.php"><button>Return form</button></a>
-				<a class="navbutton3" href="contact_us\contact_us_home.php"><button>Contact us</button></a>
+
+				<ul class="menu">
+					<button class="img-button"><img class="icon" src="../img/list.png" alt=""></button>
+					<ul class="submenu">
+						<li><button>Products</button></li>
+						<li><button>Return form</button></li>
+						<li><button>Contact us</button></li>
+					</ul>
+				</ul>
+				
+				
+				<a id="navbutton1" href="index-product.html"><button >Products</button></a>
+				<a id="navbutton2" href="return-form.php"><button>Return form</button></a>
+				<a id="navbutton3" href="contact_us\contact_us_home.php"><button>Contact us</button></a>
 			</header>
 			<div id = "box_colorfull">
 				<img src = "../img/im_sock_home.png" alt = "Sock" class = "im_sock_home">

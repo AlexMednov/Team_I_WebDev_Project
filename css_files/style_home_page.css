@@ -31,6 +31,10 @@ header{
 	grid-column: 1/2;
 	margin-bottom: 5px;
 }
+header>ul{
+	display: none;
+}
+
 h1{
 	font-family: "Nexa Bold";
 	text-align: center;
@@ -39,23 +43,22 @@ h2{
 	font-family: "Nexa Light";
 	text-align: center;
 }
-.navbutton1{
+#navbutton1{
   grid-column: 6/8;
   height: 40px;
   width: 90%;
 }
 
-.navbutton2{
+#navbutton2{
   grid-column: 8/10;
   height: 40px;
   width: 90%;
 }
 
-.navbutton3{
+#navbutton3{
   grid-column: 10/12;
   height: 40px;
   width: 90%;
-}
 }
 .navbar3{
 	grid-column: 6/8;
@@ -170,6 +173,8 @@ footer{
 #biggest_button{
 	display: none;
 }
+
+
 /*phone wersion media quarry*/
 @media screen and (max-width: 576px){
 	#grid_container{
@@ -185,20 +190,61 @@ footer{
 		grid-column: 1/5;
 		background-color: RGB(81, 178, 162, 1);
 		display: flex;
+		align-items: center;
 		justify-content: space-between;
 		border-radius: 0px 0px 0px 0px;
 	}
+	
 	#logo{
 		width: auto;
 		height: 80px;
 		margin-left: 5px;
 	}
-	header>nav{
-		width: 300px;
-		display: flex;
-		justify-content: space-around;
-		align-items: center;
+	
+
+	header>ul{
+		display: block;
 	}
+	.icon{
+		width: 50px;
+		height: auto;
+	}
+	ul {
+		list-style: none;
+	}
+	li button{
+		width: 100px;
+		height: 50px;
+		background-color: #1E407A;
+		border-radius: 15px;
+		color: white;
+	}
+
+	.img-button {
+		border: 0;
+		background: none;
+		cursor: pointer;
+	}
+	.submenu {
+		display: none;
+
+	}
+	.img-button:focus + .submenu, .submenu:hover {
+		padding: 0;
+		width: 200px;
+		height: 300px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		row-gap: 30px;
+		background-color: #51B2A2;
+		border-radius: 15px;
+	}
+		
+	
+	
+	
 	.im_sock_home{
 		width: 250px;
 		height: auto;
@@ -263,5 +309,14 @@ footer{
 		height: 125px;
 		grid-column: 1/5;
 		border-radius: 0px;
+	}
+	#navbutton3{
+		display: none;
+	}
+	#navbutton2{
+		display: none;
+	}
+	#navbutton1{
+		display: none;
 	}
 }
