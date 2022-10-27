@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang = "en">
 	<head>
+		<meta name="keywords" content="Socks, Sunny Socks, Buy socks, Colourful socks">
+		<meta name="description" content="Order your colourful socks now">
+		<link rel="icon" href="../img/sunny_logos_orange.png">
+		<meta name="author" content="Alex Mednov">
 		<meta charset = "utf-8">
 		<link rel = "stylesheet" type = "text/css" href = "../css_files/map_page.css">
 		<title>Sunny Socks</title>
@@ -17,7 +21,7 @@
 					maybe we can figure something out.</h2>
 			</div>
 			<a id ="button_order" href="order.php"><button>Order now</button></a>
-			<a id ="button_contact" href="contact_us\contact_us_map.php"><button>Contact us</button></a>
+			<a id ="button_contact" href="contact_us/contact_us_map.php"><button>Contact us</button></a>
 		</div>
 	</body>
 </html>

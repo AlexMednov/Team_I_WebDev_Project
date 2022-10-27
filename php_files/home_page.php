@@ -1,6 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang = "en">
 	<head>
+		<meta name="keywords" content="Socks, Sunny Socks, Buy socks, Colourful socks">
+		<meta name="description" content="Order your colourful socks now">
+		<link rel="icon" href="../img/sunny_logos_orange.png">
+		<meta name="author" content="Alex Mednov">
 		<meta charset = "utf-8">
 		<link rel = "stylesheet" type = "text/css" href = "../css_files/style_home_page.css">
 		<title>Sunny socks</title>
@@ -11,21 +15,21 @@
 			</div>
 			<!--Have not came up with a better way to make white space-->
 			<header>
-				<img src = "../img/sunny_logos-01.png" id = "logo">
+				<img src = "../img/sunny_logos-01.png" id = "logo" alt = "logo">
 
 				<ul class="menu">
 					<button class="img-button"><img class="icon" src="../img/list.png" alt=""></button>
 					<ul class="submenu">
 						<li class = "mob_but"><a href="index-product.html"><button>Products</button></a></li>
 						<li class = "mob_but"><a href="return-form.php"><button>Return form</button></a></li>
-						<li class = "mob_but"><a href="contact_us\contact_us_home.php"><button>Contact us</button></a></li>
+						<li class = "mob_but"><a href="contact_us/contact_us_home.php"><button>Contact us</button></a></li>
 					</ul>
 				</ul>
 				
 				
 				<a id="navbutton1" href="index-product.html"><button >Products</button></a>
 				<a id="navbutton2" href="return-form.php"><button>Return form</button></a>
-				<a id="navbutton3" href="contact_us\contact_us_home.php"><button>Contact us</button></a>
+				<a id="navbutton3" href="contact_us/contact_us_home.php"><button>Contact us</button></a>
 			</header>
 			<div id = "box_colorfull">
 				<img src = "../img/im_sock_home.png" alt = "Sock" class = "im_sock_home">
@@ -64,8 +68,8 @@
 			<footer>
 					<a class="Button_footer" href="index-product.html"><button >Products</button></a>
 					<input type="button" value="Return form" onclick="window.location='return-form.php'" id = "big_button">
-					<a class="Button_footer" href="contact_us\contact_us_home.php"><button>Contact us</button></a>
-					<a id = "biggest_button" href="contact_us\contact_us_home.php"><button>Contact us</button></a>
+					<a class="Button_footer" href="contact_us/contact_us_home.php"><button>Contact us</button></a>
+					<a id = "biggest_button" href="contact_us/contact_us_home.php"><button>Contact us</button></a>
 			</footer>
 		</div>
 	</body>
