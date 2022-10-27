@@ -2,7 +2,6 @@ body{
 	background-image: url("../img/background image.jpg");
 	grid-template-columns: repeat(12, 1fr);
 	display: grid;
-	grid-column: 1/12;
 }
 .container{
     width: 756px;
@@ -151,4 +150,125 @@ body{
     background-color: #1e407a;
 	color:white;
 	font-size: 140%;
+}
+.sunny{
+	display: none;
+}
+.bb{
+	display: none;
+}
+.Text{
+	display: none;
+}
+.submit2{
+	display: none;
+}
+@media only screen and (max-width: 480px) {
+body{
+		background-image: none;
+		background-color: #51b2a2;
+	}
+.container{
+		grid-column: 1/12;
+		width: 100%;
+		height: 50%;
+		row-gap: 5px;
+		justify-content: space-between;
+		gap: 5%;
+		margin-left: 13%;
+	}
+.right{
+		grid-column: 1/12;
+		width: 80%;
+		height: 50%;
+		margin-left: 13%;
+	}
+.space{
+		height:50%;
+	}
+.types input{
+		height:140%;
+		font-size: 120%;
+	}
+.button-container{
+		height:60%;
+	}
+.button1{
+	height: 150%;
+}
+.button2{
+	height: 150%;
+}
+.button1 input{
+		height: 80%;
+		font-size: 55%;
+	}
+.button2 input{
+		height: 80%;
+		font-size: 55%;
+	}
+.address input{
+		height: 50%;
+	}
+.types input{
+		height: 50%;
+	}
+.info{
+	height:110%;
+	
+}
+.info h3{
+	font-size: 50%;
+}
+.sunny{
+	grid-column: 1/12;
+	display: flex;
+	height: 30%;
+	width:100%;
+	margin-left: 5%;
+	justify-content: center;
+}
+#photo{
+	height: 80%;
+}
+.contact{
+	display: none;
+}
+.bb{
+	display: flex;
+	grid-column: 1/2;
+	background-color: #1e407a;
+	height: 23%;
+	width: 150%;
+	justify-content: center;
+	text-align: center;
+}
+.bb a{
+	color:white;
+	text-decoration: none;
+	font-size: 80%;	
+}
+.Text{
+	font-family: "Nexa Light";
+	display: flex;
+	grid-column: 2/12;
+	justify-content: center;
+	color: white;
+}
+.Text p{
+	font-size: 150%;
+}
+.back{
+	display: none;
+}
+.submit{
+	display: none;
+}
+.submit2{
+	display:flex;
+	grid-column: 5/9;
+	grid-row: 5/6;
+	margin-bottom: 40%;
+}
+
 }
