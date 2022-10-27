@@ -1,89 +1,112 @@
-	body
-	{
-		background-image: url("../img/background image.jpg") ;
-		margin: 0px;
-		margin-top: 3%;
-	}
-	
-	.container
-	{
-		display: grid;
-		grid-template-columns: repeat(12, 1fr);
-	}
-	
-	#forms
-	{
-		grid-column: 2/7;
-		display: flex;
-		justify-content: space-between;
-	}
-	
-	#right
-	{
-		display: flex;
-		grid-column: 8/11;
-		padding-left: 5px;
-		padding-right: 5px;
-		flex-direction: column;
-	}
-	
-	#info
-	{
-		font-family: "Nexa Light";
-		background-color: #e990b9;
-		font-size: 35px;
-		height: 100%;
-		width: 100%;
-		text-align: center;
-		border-radius: 3%;
-		position: relative;
-		padding: 3px;
-	}
-	
-	#forms > button
-	{
-		font-family: "Nexa Light" ;
-		height: 60px;
-		width: 365px;
-		background-color: #1e407a;
-		color: white;
-		font-size: 200%;
-		margin: 0px;
-		border-radius: 5px;
-	}
-	
-	#contact_us
-	{
-		display: flex;
-		justify-content: center;
-		margin-top: 70%;
-		width: 100%;
-		background-color: #1e407a;
-		color: white;
-		font-family: "Nexa Light";
-		height: 60px;
-		border-radius: 5px;
-		border:none;
-		font-size: 200%;
-		align-items: center;
-	}
-	
-	#back
-	{
-		display: flex;
-		margin-top: 20%;
-		background-color: #1e407a;
-		color: white;
-		font-family: "Nexa Light";
-		height: 60px;
-		width: 100%;
-		border-radius: 5px;
-		border:none;
-		justify-content: center;
-	}
-	
-	#buttons
-	{
-		display:flex;
-		flex-direction: column;
-	}
+body{
+	background-image: url("../img/background image.jpg");
+	grid-template-columns: repeat(12, 1fr);
+	display: grid;
+	grid-column: 1/12;
+}
+.container{
+    width: 756px;
+    height: 756px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 45px;
+	grid-column: 2/6;
+	margin-left: 1%;
+	margin-top: 5%;
+}
+.order input{
+    width: 80%;
+    height: 75px;
+    border-radius: 15px;
+    background-color: #E990B9;
+}
+.button-container{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+	height: 10%;
+    column-gap: 10%;
+}
+.button1{
+    width: 45%;
+}
+.button1 input{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: #1e407a;
+}
+.button2{
+    width: 45%;
+}
+.button2 input{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: #1e407a;
+}
+.address input{
+    width: 80%;
+    height: 75px;
+    border-radius: 15px;
+    background-color: #E990B9;
+}
+.types input{
+    width: 80%;
+    height: 75px;
+    border-radius: 15px;
+    background-color: #E990B9;
+}
+.right{
+	grid-column:9/12;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+.info{ 
+	display:flex;
+	justify-content: center;
+	font-family: "Nexa Light";
+	width: 90%;
+	height: 30%;
+	background-color: #E990B9;
+	margin-left: 5%;
+	color:white;
+	font-size: 150%;
+	text-align:center;
+	margin-top: 6%;
+	border-radius: 3%;
+}
+.right-buttons{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	row-gap: 15%;
+	height: 50%;
+	width: 100%;
+	justify-content: space-evenly;
+	margin-top: 20%;
+}
+.anchor{
+	font-family: "Nexa Light";
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	height: 50%;
+	font-size: 190%;
+}
+.contact{
+	background-color: #1e407a;
+	width: 65%;
+	height: 25%;
+	margin-left: 20%;
+	text-align: center;
+}
+.back{
+	background-color: #1e407a;
+	width: 65%;
+	height: 25%;
+	margin-left: 20%;
+	text-align: center;
+}

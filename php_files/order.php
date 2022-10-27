@@ -38,12 +38,9 @@
 				<img src="../img/sunny_logos_slogan_orange.png" width="300" height="115">
 			</div>
 			<img class="whitelogo" src="../img/sunny_logos-01.png" width="300" height="115">
-			<?php
-				$url = htmlspecialchars($_SERVER['HTTP_REFER']);
-				echo "<a href='$url'>sjdkhads</a>";
-			?>
+		
 			<div class="button">
-				<b><h2><a class='back' href=''>Back</a></h2></b>
+				<b><h2><a class='back' href='index-product.html'>Return to products</a></h2></b>
 			</div>	
 				
 		</div>
