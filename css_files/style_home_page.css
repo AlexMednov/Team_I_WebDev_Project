@@ -7,7 +7,7 @@
 		background-image: url("../img/background image.jpg");
 		width: 100%;
 		height: 100%;
-		
+
 }
 #white_space{
 	height: 50px;
@@ -73,7 +73,7 @@ header a button{
 	color: white;
 	font-size: 15px;
 	font-family: "Nexa Light";
-} 
+}
 header>input{
 	font-family: "Nexa Bold";
 	border-radius: 10px;
@@ -96,7 +96,7 @@ footer a button{
 	color: white;
 	font-size: 15px;
 	font-family: "Nexa Light";
-} 
+}
 #Button_spec{
 	height: 52px;
 	width: 133px;
@@ -105,6 +105,13 @@ footer a button{
 	color: white;
 	font-family: "Nexa Bold";
 	font-size: 22px
+}
+.mob_but{
+	width: 100px;
+	height: 50px;
+	font-family: "Nexa Light";
+	text-align: center;
+	
 }
 #box_colorfull{
 	grid-column:3/11;
@@ -127,7 +134,7 @@ footer a button{
 	width: auto;
 	height: 300px;
 	border-radius: 10px;
-	
+
 }
 #box_durable{
 	grid-column:3/11;
@@ -194,17 +201,20 @@ footer{
 		justify-content: space-between;
 		border-radius: 0px 0px 0px 0px;
 	}
-	
+
 	#logo{
 		width: auto;
 		height: 80px;
 		margin-left: 5px;
 	}
-	
 
-	header>ul{
-		display: block;
+
+.menu{
+		display: flex;
+    justify-content: center;
+    margin-right: 50px;
 	}
+
 	.icon{
 		width: 50px;
 		height: auto;
@@ -213,8 +223,8 @@ footer{
 		list-style: none;
 	}
 	li button{
-		width: 100px;
-		height: 50px;
+		width: 80px;
+		height: 40px;
 		background-color: #1E407A;
 		border-radius: 15px;
 		color: white;
@@ -227,11 +237,13 @@ footer{
 	}
 	.submenu {
 		display: none;
+    position: absolute;
+    margin-top: 80px;
 
 	}
 	.img-button:focus + .submenu, .submenu:hover {
-		padding: 0;
-		width: 200px;
+		padding:0;
+		width: 120px;
 		height: 300px;
 		display: flex;
 		flex-direction: column;
@@ -241,10 +253,10 @@ footer{
 		background-color: #51B2A2;
 		border-radius: 15px;
 	}
-		
-	
-	
-	
+
+
+
+
 	.im_sock_home{
 		width: 250px;
 		height: auto;
@@ -282,7 +294,7 @@ footer{
 	}
 	#map{
 		display: initial;
-		height: 200px;	
+		height: 200px;
 		width: auto;
 		border-radius: 10px;
 	}

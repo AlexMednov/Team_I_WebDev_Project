@@ -16,9 +16,9 @@
 				<ul class="menu">
 					<button class="img-button"><img class="icon" src="../img/list.png" alt=""></button>
 					<ul class="submenu">
-						<li><button>Products</button></li>
-						<li><button>Return form</button></li>
-						<li><button>Contact us</button></li>
+						<li class = "mob_but"><a href="index-product.html"><button>Products</button></a></li>
+						<li class = "mob_but"><a href="return-form.php"><button>Return form</button></a></li>
+						<li class = "mob_but"><a href="contact_us\contact_us_home.php"><button>Contact us</button></a></li>
 					</ul>
 				</ul>
 				
