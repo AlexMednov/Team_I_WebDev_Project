@@ -3,6 +3,10 @@
 	<head>
 		<title>Order now</title>
 		<meta charset="UTF-8">
+		<meta name="description" content="Buy colourful socks from sunny">
+		<meta name="keywords" contant="socks, buy, color">
+		<meta name="author" content="Alicia Rodriguez">
+		<link rel="icon" href="../img/sunny_logos_orange.png">
 		<link rel="stylesheet" type="text/css" href="../css_files/style_order.css"> 
 	</head>
 	

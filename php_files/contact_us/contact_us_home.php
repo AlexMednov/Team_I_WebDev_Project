@@ -3,6 +3,10 @@
 	<head>
 		<title>Color</title>
 		<meta charset="UTF-8">
+		<meta name="description" content="Buy colourful socks from sunny">
+		<meta name="keywords" content="socks, buy, color">
+		<meta name="author" content="Alicia Rodriguez">
+		<link rel="icon" href="../../img/sunny_logos_orange.png">
 		<link rel="stylesheet" type="text/css" href="../../css_files/style_comission_colors.css">
 	</head>
 	
