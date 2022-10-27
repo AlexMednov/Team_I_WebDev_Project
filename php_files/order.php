@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<title>Order now</title>
 		<meta charset="UTF-8">
@@ -13,7 +13,7 @@
 			</a>
 			<p class= "resellers">Resellers</p>
 			<div class="box">
-				<b><h1>Order now</h1></b>
+				<h1><b>Order now</b></h1>
 			
 				
 				<div class="hema">
@@ -35,12 +35,12 @@
 			</div>
 			
 			<div class="logo">
-				<img src="../img/sunny_logos_slogan_orange.png" width="300" height="115">
+				<img src="../img/sunny_logos_slogan_orange.png" alt="orangelogo" width="300" height="115">
 			</div>
-			<img class="whitelogo" src="../img/sunny_logos-01.png" width="300" height="115">
+			<img class="whitelogo" src="../img/sunny_logos-01.png" alt="whitelogo" width="300" height="115">
 		
 			<div class="button">
-				<b><h2><a class='back' href='index-product.html'>Return to products</a></h2></b>
+				<h2><b><a class='back' href='index-product.html'>Return to products</a></b></h2>
 			</div>	
 				
 		</div>

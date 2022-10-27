@@ -4,7 +4,7 @@
 }
 #container{
 	display: grid;
-	grid-template-columns: repeat (12, 1fr);
+	grid-template-columns: repeat(12, 1fr);
 }
 body{
 	background-image: url("../img/background image.jpg");
@@ -115,15 +115,13 @@ h2{
 		background-image: none;
 	}
 	#container{
-		grid-template-columns: repeat (3, 1fr);
+		grid-template-columns: repeat(3, 1fr);
 	}
 	.button1{
 		display: block;
 		grid-column: 1/2;
 		width: 40px;
 		height: auto;
-		
-		
 	}
 	.resellers{
 		display: block;
