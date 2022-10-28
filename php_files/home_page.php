@@ -86,7 +86,7 @@
 				</form>
 				<input type="button" value="Return form" onclick="window.location='return-form.php'" id = "big_button">
 				<form>
-					<button type = "submit" formaction="contact_us/contact_us_home.php" class ="button">Contact us</button>
+					<button type = "submit" formaction="contact_us.php" class ="button">Contact us</button>
 				</form>
 			</footer>
 		</div>

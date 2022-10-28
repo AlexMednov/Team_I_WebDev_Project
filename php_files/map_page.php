@@ -24,7 +24,7 @@
 				<button type = "submit" formaction="order.php" class = "button">Order now</button>
 			</form>
 			<form id ="position_contact">
-				<button type = "submit" formaction="order.php" class = "button">Contact us</button>
+				<button type = "submit" formaction="contact_us.php" class = "button">Contact us</button>
 			</form>
 		</div>
 	</body>
