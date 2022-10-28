@@ -1,5 +1,5 @@
 @font-face{
-	font-family: nexa;
+  font-family: nexa;
 	src: url("../fonts/Nexa Light.otf");
 }
 #container{
@@ -8,9 +8,9 @@
 }
 body{
 	background-image: url("../img/background image.jpg");
-	background-position: center;
+  background-position: center;
 	background-size: cover;
-	font-family: nexa;
+	font-family: "Nexa Light", serif;
 }
 .button1{
 	display: none;
@@ -26,13 +26,11 @@ body{
 .box{
 	grid-column: 2/8;
 	background-color: #1E407A;
-	border-radius: 3%;
-	
+	border-radius: 10px;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
 	align-items: center;
-	
 	padding-bottom: 30px;
 	margin-top: 30px;
 }
@@ -78,7 +76,6 @@ h1{
 }
 .logo{
 	grid-column: 9/12;
-	
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
@@ -91,14 +88,13 @@ h1{
 .button{
 	grid-column: 3/7;
 	background-color: #1E407A;
-	border-radius: 3%;
-	
+	border-radius: 10px;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-	
+
 	margin-top: 10px;
 }
 h2{
@@ -118,13 +114,15 @@ h2{
 		grid-template-columns: repeat(3, 1fr);
 	}
 	.button1{
+    width: 40px;
+    height: auto;
 		display: block;
-		grid-column: 1/2;
-		width: 40px;
-		height: auto;
+		grid-column: 2/3;
+    margin-top: 9px;
+    margin-left: 9px;
+
 	}
 	.resellers{
-		display: block;
 		grid-column: 2/3;
 		font-size: 50px;
 		display: flex;
@@ -144,7 +142,7 @@ h2{
 	.whitelogo{
 		display: block;
 		grid-column: 2/3;
-		
+
 		margin-left: auto;
 		margin-right: auto;
 		margin-top: 40px;
@@ -152,5 +150,5 @@ h2{
 	.button{
 		display: none;
 	}
-	
+
 }
