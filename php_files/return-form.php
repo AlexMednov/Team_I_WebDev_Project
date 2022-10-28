@@ -15,7 +15,7 @@
 	<body>
 
 		<div class="bb">
-			<a href="#">Back</a>
+			<a href="php_files/home_page.php">Back</a>
 		</div>
 		
 		<div class="Text">
