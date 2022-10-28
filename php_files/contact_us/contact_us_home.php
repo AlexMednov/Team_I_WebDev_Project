@@ -9,7 +9,7 @@
 		<link rel="icon" href="../../img/sunny_logos_orange.png">
 		<link rel="stylesheet" type="text/css" href="../../css_files/style_comission_colors.css">
 	</head>
-	
+
 	<body>
 		<div id="container">
 			<a class="button1" href="../../php_files/index-product.html">
@@ -38,7 +38,7 @@
 			<div id="button">
 				<h2><a class="link2" href="../../php_files/home_page.php">Back</a></h2>
 			</div>
-			
+
 		</div>
 	</body>
 </html>
