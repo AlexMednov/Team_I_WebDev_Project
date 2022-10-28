@@ -49,7 +49,7 @@ body{
     width: 45%;
 }
 .button1 input{
-    font-family: "Nexa Light";
+    font-family: "Nexa Light", serif;
 	width: 100%;
     height: 100%;
     border-radius: 15px;
@@ -61,7 +61,7 @@ body{
     width: 45%;
 }
 .button2 input{
-    font-family: "Nexa Light";
+  font-family: "Nexa Light", serif;
 	width: 100%;
     height: 100%;
     border-radius: 15px;
@@ -110,10 +110,10 @@ body{
 	justify-content: space-between;
 	height: 120%;
 }
-.info{ 
+.info{
 	display:flex;
 	justify-content: center;
-	font-family: "Nexa Light";
+  font-family: "Nexa Light", serif;
 	width: 90%;
 	height: 20%;
 	background-color: #E990B9;
@@ -134,7 +134,7 @@ body{
 	margin-top: 20%;
 }
 .anchor{
-	font-family: "Nexa Bold";
+  font-family: "Nexa Bold", serif;
 	color: white;
 	text-decoration: none;
 	text-align: center;
@@ -169,7 +169,7 @@ body{
 	justify-content: center;
 }
 .submit input{
-	font-family: "Nexa Bold";
+  font-family: "Nexa Bold", serif;
 	width: 60%;
     height: 150%;
     border-radius: 15px;
@@ -178,9 +178,6 @@ body{
 	font-size: 140%;
 }
 .sunny{
-	display: none;
-}
-.bb{
 	display: none;
 }
 .Text{
@@ -239,7 +236,7 @@ body{
 	height:40px;
 	font-size:20px
 }
-	
+
 .address input{
 		height: 100%;
 
@@ -254,7 +251,7 @@ body{
 	width: 100%;
 	position: relative;
 	right: 13px;
-	
+
 }
 .info h3{
 	font-size: 50%;
@@ -262,9 +259,9 @@ body{
 .sunny{
 	grid-column: 1/12;
 	display: flex;
-	height: auto;
-	width:50%;
-	margin-left: 30%;
+	height: 200px;
+	width:350px;
+	margin-left: 22%;
 	justify-content: center;
 	flex-direction:column;
 }
@@ -286,10 +283,10 @@ body{
 .bb a{
 	color:white;
 	text-decoration: none;
-	font-size: 80%;	
+	font-size: 80%;
 }
 .Text{
-	font-family: "Nexa Light";
+  font-family: "Nexa Light", serif;
 	display: flex;
 	grid-column: 2/12;
 	justify-content: center;
@@ -318,7 +315,7 @@ body{
 		color:white;
 		text-decoration:none;
 		font-size:25px;
-		font-family: "Nexa Light";
+  font-family: "Nexa Light", serif;
 }
 
 }
