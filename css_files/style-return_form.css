@@ -4,8 +4,8 @@ body{
 	display: grid;
 }
 .container{
-    width: 756px;
-    height: 756px;
+    width: 120%;
+    height: 130%;
     display: flex;
     flex-direction: column;
     row-gap: 45px;
@@ -25,14 +25,7 @@ body{
 .order{
 	color:white;
 }
-.order input{
-    width: 80%;
-    height: 75px;
-    border-radius: 15px;
-    background-color: #E990B9;
-	font-size: 140%;
-	color: white;
-}
+
 .button-container{
     display: flex;
     flex-direction: row;
@@ -66,7 +59,7 @@ body{
 }
 .address input{
     width: 80%;
-    height: 75px;
+    height: 160%;
     border-radius: 15px;
     background-color: #E990B9;
 	font-size: 140%;
@@ -74,7 +67,7 @@ body{
 }
 .types input{
     width: 80%;
-    height: 75px;
+    height: 160%;
     border-radius: 15px;
     background-color: #E990B9;
 	font-size: 140%;

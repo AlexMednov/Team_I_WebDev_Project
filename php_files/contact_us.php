@@ -6,14 +6,14 @@
 		<meta name="description" content="Buy colourful socks from sunny">
 		<meta name="keywords" content="socks, buy, color">
 		<meta name="author" content="Alicia Rodriguez">
-		<link rel="icon" href="../../img/sunny_logos_orange.png">
-		<link rel="stylesheet" type="text/css" href="../../css_files/style_comission_colors.css">
+		<link rel="icon" href="../img/sunny_logos_orange.png">
+		<link rel="stylesheet" type="text/css" href="../css_files/style_comission_colors.css">
 	</head>
-	
+
 	<body>
 		<div id="container">
-			<a class="button1" href="../../php_files/index-product.html">
-				<img src="../../img/previous.png" alt="button">
+			<a class="button1" href="../php_files/index-product.html">
+				<img src="../img/previous.png" alt="button">
 			</a>
 			<p class="contact">Contact us</p>
 			<div id="box">
@@ -32,13 +32,16 @@
 				</div>
 			</div>
 			<div id="logo">
-				<img src="../../img/sunny_logos_slogan_orange.png" alt="orangelogo" width="300" height="115">
+				<img src="../img/sunny_logos_slogan_orange.png" alt="orangelogo" width="300" height="115">
 			</div>
-			<img class="whitelogo" src="../../img/sunny_logos-01.png" alt="whitelogo" width="300" height="115">
+			<img class="whitelogo" src="../img/sunny_logos-01.png" alt="whitelogo" width="300" height="115">
 			<div id="button">
-				<h2><a class="link2" href="../../php_files/index-product.html">Back</a></h2>
+				<?php
+					$url = htmlspecialchars($_SERVER['HTTP_REFERER']);
+					echo "<a href='$url'><h2>Back</h2></a>"; 
+				?>
 			</div>
-			
+
 		</div>
 	</body>
 </html>
