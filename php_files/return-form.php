@@ -59,7 +59,7 @@
 		 
 		 <div class="right">
 			<div class="info">
-				<h3>All fields are mandatory to be filled. For additional information, you could call us from 12:00 - 18:00 CET, or write us an email</h3>
+				<p>All fields are mandatory to be filled. For additional information, you could call us from 12:00 - 18:00 CET, or write us an email</p>
 			</div>
 			
 			<div class="right-buttons">
