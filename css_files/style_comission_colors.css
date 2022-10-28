@@ -80,6 +80,10 @@ body{
 }
 h2{
 	color: white;
+	text-decoration: none;
+}
+a{
+	text-decoration: none;
 }
 .link2{
 	text-decoration: none;
