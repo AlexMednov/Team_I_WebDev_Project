@@ -13,10 +13,9 @@
 	
 	</head>
 	<body>
-
-		<div class="bb">
-			<a href="home_page.php">Back</a>
-		</div>
+		<a class="icon" href="home_page.php">
+              <img src="../img/previous.png" alt="">
+         </a>
 		
 		<div class="Text">
 			<p> Return Form </p>
@@ -30,13 +29,15 @@
 			 </div>
 
 				<div class="button-container">
-
-					<div class="button1">
-						<input type="button" value="Classic uni color">
-					</div>
-
-					<div class="button2">
-						<input type="button" value="Classic stripes">
+				
+					
+					<div id ="radio_buttons">
+						<div class="radio_button">
+							<input type="radio" name="choice" value="Classic uni color" class = "radio_buttons">Classic uni color
+						</div>
+						<div class="radio_button">
+							<input type="radio" name="choice" value="Classic stripes" class = "radio_buttons">Classic stripes
+						</div>
 					</div>
 
 				 </div>
@@ -71,7 +72,7 @@
 				</div>
 				
 				<div class="back">
-					<a href="home_page.php" class="anchor"><p>Back</p></a>
+					<a href="home_page.php" class="anchor"></a>
 				</div>
 			
 			</div>
@@ -79,11 +80,12 @@
 		 
 		 <div class="sunny">
 			 <img id="photo" src="../img/sunny_logos-01.png">
-		</div>
-		
+			 		
 		<div class="submit2">
 			<a href="#">Submit</a>
 		</div>
+		</div>
+
 		
 	 </body>
 	
