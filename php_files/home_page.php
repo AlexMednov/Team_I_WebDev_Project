@@ -28,7 +28,7 @@
 							<button type = "submit" formaction="return-form.php" class = "mob_but">Return form</button>
 						</form></li>
 						<li><form>
-							<button type = "submit" formaction="contact_us/contact_us_home.php" class = "mob_but">Contact us</button>
+							<button type = "submit" formaction="contact_us.php" class = "mob_but">Contact us</button>
 						</form></li>
 					</ul></li>
 				</ul>
@@ -41,8 +41,10 @@
 					<button type = "submit" formaction="return-form.php">Return form</button>
 				</form>
 				<form id="navbutton3">
-					<button type = "submit" formaction="contact_us/contact_us_home.php">Contact us</button>
+					<button type = "submit" formaction="contact_us.php">Contact us</button>
 				</form>
+				
+				
 			</header>
 			<div id = "box_colorfull">
 				<img src = "../img/im_sock_home.png" alt = "Sock" class = "im_sock_home">
