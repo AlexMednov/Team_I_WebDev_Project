@@ -18,18 +18,31 @@
 				<img src = "../img/sunny_logos-01.png" id = "logo" alt = "logo">
 
 				<ul class="menu">
-					<button class="img-button"><img class="icon" src="../img/list.png" alt=""></button>
+					<li><button class="img-button"><img class="icon" src="../img/list.png" alt=""></button>
 					<ul class="submenu">
-						<li class = "mob_but"><a href="index-product.html"><button>Products</button></a></li>
-						<li class = "mob_but"><a href="return-form.php"><button>Return form</button></a></li>
-						<li class = "mob_but"><a href="contact_us/contact_us_home.php"><button>Contact us</button></a></li>
-					</ul>
+					
+						<li><form>
+							<button type = "submit" formaction="index-product.html" class = "mob_but">Products</button>
+						</form></li>
+						<li><form>
+							<button type = "submit" formaction="return-form.php" class = "mob_but">Return form</button>
+						</form></li>
+						<li><form>
+							<button type = "submit" formaction="contact_us/contact_us_home.php" class = "mob_but">Contact us</button>
+						</form></li>
+					</ul></li>
 				</ul>
 				
 				
-				<a id="navbutton1" href="index-product.html"><button >Products</button></a>
-				<a id="navbutton2" href="return-form.php"><button>Return form</button></a>
-				<a id="navbutton3" href="contact_us/contact_us_home.php"><button>Contact us</button></a>
+				<form id="navbutton1">
+					<button type = "submit" formaction="index-product.html">Products</button>
+				</form>
+				<form id="navbutton2">
+					<button type = "submit" formaction="return-form.php">Return form</button>
+				</form>
+				<form id="navbutton3">
+					<button type = "submit" formaction="contact_us/contact_us_home.php">Contact us</button>
+				</form>
 			</header>
 			<div id = "box_colorfull">
 				<img src = "../img/im_sock_home.png" alt = "Sock" class = "im_sock_home">
@@ -66,10 +79,13 @@
 				</div>
 			</div>
 			<footer>
-					<a class="Button_footer" href="index-product.html"><button >Products</button></a>
-					<input type="button" value="Return form" onclick="window.location='return-form.php'" id = "big_button">
-					<a class="Button_footer" href="contact_us/contact_us_home.php"><button>Contact us</button></a>
-					<a id = "biggest_button" href="contact_us/contact_us_home.php"><button>Contact us</button></a>
+				<form>
+					<button type = "submit" formaction="index-product.html" class ="button">Products</button>
+				</form>
+				<input type="button" value="Return form" onclick="window.location='return-form.php'" id = "big_button">
+				<form>
+					<button type = "submit" formaction="contact_us/contact_us_home.php" class ="button">Contact us</button>
+				</form>
 			</footer>
 		</div>
 	</body>

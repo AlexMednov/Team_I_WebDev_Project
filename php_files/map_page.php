@@ -20,8 +20,12 @@
 					(highlighted green). If your country is not on the list, contact us, 
 					maybe we can figure something out.</h2>
 			</div>
-			<a id ="button_order" href="order.php"><button>Order now</button></a>
-			<a id ="button_contact" href="contact_us/contact_us_map.php"><button>Contact us</button></a>
+			<form id ="position_order">
+				<button type = "submit" formaction="order.php" class = "button">Order now</button>
+			</form>
+			<form id ="position_contact">
+				<button type = "submit" formaction="order.php" class = "button">Contact us</button>
+			</form>
 		</div>
 	</body>
 </html>

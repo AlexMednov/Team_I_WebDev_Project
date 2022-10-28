@@ -33,35 +33,21 @@ h2{
 	color: white;
 	width: 90%;
 }
-#button_order{
+.button{
 	height: 40px;
 	width: 100%;
 	border-radius: 10px;
 	background-color: RGBA(30, 64, 122, 1);
 	color: white;
 	font-family: "Nexa Bold";
+	margin-top: 30px;
+	font-size: 20px;
+}
+#position_order{
 	grid-column: 8/10;
-	margin-top: 30px;
-	font-size: 20px;
 }
-#button_contact{
-	height: 40px;
-	width: 100%;
-	border-radius: 10px;
-	background-color: RGBA(30, 64, 122, 1);
-	color: white;
-	font-family: "Nexa Bold";
+#position_contact{
 	grid-column: 10/12;
-	margin-top: 30px;
 	margin-left: 30px;
-	font-size: 20px;
-}
-div a button{
 	width: 100%;
-	height: 100%;
-	border-radius: 10px;
-	background-color: #1E407A;
-	color: white;
-	font-size: 15px;
-	font-family: "Nexa Light";
-} 
+}
