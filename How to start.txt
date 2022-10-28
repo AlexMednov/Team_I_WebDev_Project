@@ -1,0 +1,3 @@
+1) Place the entire folder into the docker or xamp environment.
+2) execute home_page.php.
+3) Done!
