@@ -7,14 +7,17 @@
 		<meta name="keywords" content="socks, buy, color">
 		<meta name="author" content="Alicia Rodriguez">
 		<link rel="icon" href="../img/sunny_logos_orange.png">
-		<link rel="stylesheet" type="text/css" href="../css_files/style_comission_colors.css">
+		<link rel="stylesheet" type="text/css" href="../css_files/contact_us.css">
 	</head>
 	
 	<body>
 		<div id="container">
-			<a class="button1" href="../php_files/index-product.html">
-				<img src="../img/previous.png" alt="button">
-			</a>
+			<?php
+				$url = htmlspecialchars($_SERVER['HTTP_REFERER']);
+				echo "<a class='button1' href='$url'>
+				<img src='../img/previous.png' alt='button'>
+				</a>"; 
+			?>
 			<p class="contact">Contact us</p>
 			<div id="box">
 				<div class="paragraph1">
