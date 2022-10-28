@@ -9,7 +9,7 @@
 		<link rel="icon" href="../img/sunny_logos_orange.png">
 		<link rel="stylesheet" type="text/css" href="../css_files/contact_us.css">
 	</head>
-	
+
 	<body>
 		<div id="container">
 			<?php
@@ -44,7 +44,7 @@
 					echo "<a href='$url'><h2>Back</h2></a>"; 
 				?>
 			</div>
-			
+
 		</div>
 	</body>
 </html>

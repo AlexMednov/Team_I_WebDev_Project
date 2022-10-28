@@ -15,7 +15,7 @@
 	<body>
 
 		<div class="bb">
-			<a href="php_files/home_page.php">Back</a>
+			<a href="home_page.php">Back</a>
 		</div>
 		
 		<div class="Text">
@@ -65,13 +65,13 @@
 			<div class="right-buttons">
 				
 				<div class="contact">
-					<a href="#" class="anchor"> 
+					<a href="contact_us/contact_us_return.php" class="anchor"> 
 						<p>Contact us</p>
 					</a>
 				</div>
 				
 				<div class="back">
-					<a href="#" class="anchor"><p>Back</p></a>
+					<a href="home_page.php" class="anchor"><p>Back</p></a>
 				</div>
 			
 			</div>
